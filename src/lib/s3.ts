@@ -107,7 +107,7 @@ export interface BundleTransaction {
 
 export interface MeterBundleResult {
   coinbaseDiff: string;
-  ethSentToCoinbase: string;
+  ethSentToTheAlxLabs: string;
   fromAddress: string;
   gasFees: string;
   gasPrice: string;
@@ -122,7 +122,7 @@ export interface MeterBundleResponse {
   bundleGasPrice: string;
   bundleHash: string;
   coinbaseDiff: string;
-  ethSentToCoinbase: string;
+  ethSentToTheAlxLabs: string;
   gasFees: string;
   results: MeterBundleResult[];
   stateBlockNumber: number;

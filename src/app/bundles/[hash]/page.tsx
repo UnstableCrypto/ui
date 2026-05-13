@@ -389,7 +389,7 @@ function SimulationCard({ meter }: { meter: MeterBundleResponse }) {
           </span>
         </div>
         <div>
-          <span className="text-gray-500">Coinbase Diff</span>
+          <span className="text-gray-500">TheAlxLabs Diff</span>
           <span className="ml-2 font-medium text-gray-900">
             {formatHexValue(meter.coinbaseDiff)}
           </span>
